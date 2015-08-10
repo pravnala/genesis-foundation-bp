@@ -1,0 +1,341 @@
+@media only screen and (min-width: 81.938em) {  // 1311px above topbar breakpoint
+  #main-nav {
+    .company-logo {
+      background: url(../images/logo_legado_2.jpg) no-repeat;
+    }
+    .contact-mobile {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 81.875em) {  // 1310px Topbar breakpoint
+  // Topbar
+  #main-nav {
+    .company-logo {
+      background: url(../images/logo_legado_1.jpg) no-repeat;
+    }
+    .contact-mobile {
+      float: right;
+      margin-right: 90px;
+      margin-top: 3px;
+    }
+  }
+  .contain-to-grid .top-bar {
+    height: 100px;
+    .toggle-topbar {
+      a {
+        z-index: 1000;
+        display: block;
+        margin-top: 25px;
+        margin-right: 10px;
+        height: 20px;
+        padding-left: 20px;
+        border-left: 1px solid #606573;
+      }
+    }
+    .top-bar-section {
+      position: relative;
+      ul li a {
+        border-right: none;
+        color: white;
+        &:hover {
+          color: #203879;
+        }
+      }
+      .left {
+        position: relative;
+        z-index: 1000;
+        float: right !important;
+        padding: 30px 0;
+        right:0;
+        background-color: #d9b569;
+        margin: 65px -277px 0px 0px;
+        width: auto;
+        display: none;
+        li {
+          text-align: right;
+          background: none;
+          padding: 0;
+          a {
+            padding: 5px 25px 5px 35px !important;
+            &:hover {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+      .right {
+        display: none;
+      }
+    }
+  }
+
+  .top-bar.expanded {
+    height: auto;
+    .top-bar-section {
+      .left {
+        display: block;
+      }
+    }
+  }
+
+  .content-wrapper {
+    padding: 0 45px;
+  }
+
+  body.page-template-page-home {
+
+    .hero {
+      margin-top: 0;
+      background: url(../images/hero-bg-mobile.png) no-repeat;
+      background-size: cover;
+      background-position: right 20px;
+    }
+    .roles {
+      margin-top: 50px;
+      background: url(../images/roles-bg.png) repeat center top, url(../images/roles-bg-gradient-mobile.png) repeat-x center top;
+      background-size: cover;
+    }
+  }
+
+  #inner-container #inner-layout #side-panel {
+    width: 422px;
+    .content-wrapper {
+      padding-right: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 92.000em) {  // 1472px
+  body.page-template-page-home {
+    .purchase-process {
+      .content-wrapper {
+        padding: 0 45px;
+      }
+      .steps-container {
+        background: none;
+        padding-top: 0;
+        .step {
+          background: none !important;
+          width: 100%;
+          text-align: center;
+          margin: 0 !important;
+          .number, .text-wrap {
+
+          }
+          .number {
+            position: static;
+          }
+          .text-wrap {
+
+          }
+        }
+        .row:nth-child(odd), .row:nth-child(even) {
+          .text-wrap {
+            max-width: 100%;
+            float: none !important;
+            text-align: center !important;
+          }
+        }
+        .row:nth-child(even) {
+
+        }
+      }
+      .button {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 84.625em) {  // 1354px
+  #inner-container #inner-layout #main-content .content-wrapper {
+    padding: 40px 50px 0 30px;
+  }
+}
+
+@media only screen and (max-width: 68.625em) {  // 1098px (inner page layout breakpoint)
+
+  #inner-container {
+    .column {
+      padding: 0;
+    }
+    #inner-layout {
+      &.table, .table-row, .table-cell {
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100% !important;
+      }
+      #main-content .content-wrapper {
+        padding: 40px 35px 0px 35px;
+      }
+    }
+  }
+  #inner-container #inner-layout #side-panel {
+    .content-wrapper {
+      margin: 0;
+      background: url(../images/side-panel-bg.png);
+      background-repeat: repeat;
+      background-position: left center;
+      background-opacity: 0.71;
+    }
+  }
+}
+
+@media only screen and (max-width: 64.000em) {  // 1024px (medium breakpoint)
+  body.page-template-page-home {
+    .hero {
+      background: url(../images/hero-bg-mobile-tall.png) no-repeat right top;
+      background-size: cover;
+
+      .hero-content {
+        margin-top: 75px;
+        width: 45%;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .content-blocks .content-wrapper {
+      padding-bottom: 45px;
+      padding-top: 45px;
+    }
+  }
+}
+
+@media only screen and (min-width: 40.063em) {  // 641px (medium up)
+  .title-area-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 40.000em) {  // 640px (small, mobile menu breakpoint)
+  #main-nav {
+    .company-logo {
+      display: none;
+    }
+    .topbar-contact {
+      padding-top: 10px;
+      padding-right: 30px;
+      font-size: 20px;
+    }
+  }
+  .contain-to-grid {
+    height: 50px;
+    .top-bar {
+      margin-top: 0;
+      .title-area .name {
+        display: none;
+      }
+      .toggle-topbar {
+        a {
+          margin-top: 0;
+          margin-right: 10px;
+          height: 50px;
+          padding-left: 20px;
+          padding-top: 13px;
+          border-left: 1px solid rgba(28, 48, 101, 0.27);
+        }
+      }
+    }
+  }
+  .contain-to-grid .top-bar .top-bar-section .left {
+    margin: 50px -279px 0px 0px;
+  }
+  .title-area-mobile {
+    display: block;
+    height: 77px;
+    border-bottom: 1px solid rgba(28, 48, 101, 0.27);
+    a {
+      display: block;
+      width: 238px;
+      height: 88px;
+      margin: 0 auto;
+      padding-top: 8px;
+    }
+  }
+
+  .banner {
+    padding: 60px 0 60px;
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  body.page-template-page-home {
+    .content-wrapper {
+      padding: 0 20px;
+    }
+    .hero {
+      background-position: right 38%;
+      background-size: 120% auto;
+      text-align: center;
+      .hero-content {
+        width: 100%;
+        text-align: center;
+        h1 {
+          font-size: 39px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+    .roles {
+      margin-top: 130px;
+      .divider {
+        margin-top: 30px;
+      }
+      .grid {
+        .role {
+          text-align: center;
+          margin-bottom: 20px;
+          .role-icon {
+            margin-left: auto;
+            margin-right: auto;
+            img {
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+    .content-blocks {
+      .content-wrapper {
+        h1 {
+          margin-bottom: 20px;
+          font-size: 29px;
+        }
+        .button {
+          margin-top: 10px;
+          font-size: 17px;
+          font-weight: 900;
+        }
+      }
+    }
+    .find-out-more {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
+  .quote-box {
+    font-size: 20px;
+    padding: 35px 25px 35px 60px;
+  }
+  .content-box1, .content-box2 {
+    padding: 35px;
+  }
+
+  #inner-container #inner-layout #side-panel .form-box .form-title  {
+    padding: 25px 10px 19px;
+    h1 {
+      font-size: 17px;
+    }
+  }
+}
