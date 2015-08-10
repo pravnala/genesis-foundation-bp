@@ -1,29 +1,17 @@
-# Foundation libsass template
+# Genesis with Foundation Boilerplate
 
-This is a template to start your own project that uses Grunt and libsass!
+Genesis child theme template with integrated Foundation framework (libsass install).
+(see [Creating a Libsass Project](http://foundation.zurb.com/docs/sass.html)).
 
 ## Requirements
 
 You'll need to have the following items installed before continuing.
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+  * Genesis parent theme
+  * For Foundation see requirements in above link.
 
-## Quickstart
+Just run 'grunt' within the theme folder to use the Foundation install SASS compiler.
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
+See comments in functions.php for alternative setup settings and included components.
 
-While you're working on your project, run:
 
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
